@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.component.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
+  <title>Happy Birthday</title>
+</head>
+
+<body>
+  <div class="container">
+    <ul>
+      <li class="same">
+        <a routerLink="/home">Home</a>
+      </li>
+      <li class="same">
+        <a routerLink="/about">About</a>
+      </li>
+
+    </ul>
+    <div class="card">
+      <img src="assets/image/IMG_4485.JPG" alt="birthday" class="birthday">
+      <div class="text">
+        <h1>Happy Birthday Akka!</h1>
+        <p>I hope you have a wonderful birthday</p>
+        <p class="muted">- Your Lovely Brother</p>
+      </div>
+      <div class="space"></div>
+    </div>
+  </div>
+  <router-outlet></router-outlet>
+  
+</body>
+
+</html>
